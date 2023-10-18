@@ -1,0 +1,19 @@
+{
+  "name": "hexagonal_architecture",
+  "module": "src/index.ts",
+  "type": "module",
+  "scripts": {
+    "start": "bun run src/index.ts",
+    "dev": "bun --watch run src/index.ts"
+  },
+  "devDependencies": {
+    "@types/terminal-kit": "^2.5.2",
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "terminal-kit": "^3.0.1"
+  }
+}
